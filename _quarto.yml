@@ -8,7 +8,7 @@ website:
     right:
       - href: Intro_Git_Github.qmd
         text: Slides
-      - href: about.qmd
+      - href: index.qmd
         text: "About the Workshop"
         
 format:
