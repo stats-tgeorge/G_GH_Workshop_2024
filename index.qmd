@@ -6,30 +6,26 @@ title: "Data Science Tools"
 
 Slides are at: [https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html](https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html#/title-slide). Short link at <https://bit.ly/DSToolsGH>.
 
-
 ## Workshop Round 1
 
-- Introduction into Git commands and terminology
-- Create GitHub accounts and general overview
-- Practice forking a repo, creating a new file, and pull-request
-- Merge of pull request
-- How to revert a repo change
-- Creating website with GitHub Pages 
-- Teaching GitHub
-- Using GitHub to Teach
+-   Introduction into Git commands and terminology
+-   Create GitHub accounts and general overview
+-   Practice forking a repo, creating a new file, and pull-request
+-   Merge of pull request
+-   How to revert a repo change
+-   Teaching GitHub
+-   Using GitHub to Teach
 
 ## Workshop Round 2 (50%-70% overlap)
 
-- Introduction into Git commands and terminology
-- Create GitHub accounts and general overview
-- Practice forking a repo, creating a new file, and pull-request
- *OR*
-- Go to GitHub page of opening talk, fork the repo, fix the mistakes, then pull-request
-- Merge of pull request
-  * Show GitHub desktop, RStudio, and Quarto all working together
-- Teaching GitHub
-- Using GitHub to Teach
-
+-   Introduction into Git commands and terminology
+-   Create GitHub accounts and general overview
+-   Practice forking a repo, creating a new file, and pull-request *OR*
+-   Go to GitHub page of opening talk, fork the repo, fix the mistakes, then pull-request
+-   Merge of pull request
+    -   Show GitHub desktop, RStudio, and Quarto all working together
+-   Teaching GitHub
+-   Using GitHub to Teach
 
 ### Resources
 

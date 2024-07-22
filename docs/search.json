@@ -123,7 +123,7 @@
     "href": "GitHubWorkshop.html#how-do-you",
     "title": "Git and GitHub",
     "section": "How do you…",
-    "text": "How do you…\n\nCreate a repository\nOpen or view issues\nClone a Repository\n:star: a Repository\nFork A repository"
+    "text": "How do you…\n\nCreate a repository\nOpen or view issues\nClone a Repository\nStar a Repository\nFork A repository"
   },
   {
     "objectID": "GitHubWorkshop.html#github-workflow",
@@ -137,7 +137,7 @@
     "href": "GitHubWorkshop.html#i-show-you-try",
     "title": "Git and GitHub",
     "section": "I show, you try",
-    "text": "I show, you try\n\nFork the following repository: https://github.com/stats-tgeorge/G_GH_Workshop_2024\nHow to add a file to a folder on GitHub\nCreate a file about yourself or a fictional character\nShow Merging a Pull Request\nShow how I review and accept pull requests as the owner of the repository\nHow to revert a change to a repository\nTeaching GitHub\n\nNeeds to be a learning Objective (Beckman, et. al, 2021)\nKanban Boards\nUse it to enhance learning and collaboration\nNeed to give a task that necessitates a team\n\n\n\n\nUsing GitHub to Teach\n\nGitHub Classroom. https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom\nCloning others resources\n\nDSC 223 https://dsc223-sb7-2024.github.io/DSC223_S24_website/\nSTA 362 https://sta362-sb8-24.github.io/STA362StatLearning/\nOriginally Clones of Mine Çetinkaya-Rundel sites. https://mine-cr.com/teaching/\n\nTemplate Repositories\nGitHub Actions\n\n\n\n\n\nData Science Tools https://bit.ly/DSToolsGH"
+    "text": "I show, you try\n\nFork the following repository: https://github.com/stats-tgeorge/G_GH_Workshop_2024. It is useful to change the title slightly.\nClick into the peoples_bios folder\nClick Add file and then create new file on the right\nName your file with your last name, first initial at the top (or your fictional characters name)\n\nExample: George_T.txt\n\nWrite you bio in the document\nClick Commit changes… on top right\nClick Commit changes\nNavigate back to the main page of your Fork of the repo by clicking its name at the top\nNow, in the middle of the page, you should see Contribute. Click that and then Open pull request\nClick Create pull request at the bottom."
   },
   {
     "objectID": "index.html",
@@ -166,5 +166,47 @@
     "title": "Data Science Tools",
     "section": "Workshop Round 2 (50%-70% overlap)",
     "text": "Workshop Round 2 (50%-70% overlap)\n\nIntroduction into Git commands and terminology\nCreate GitHub accounts and general overview\nPractice forking a repo, creating a new file, and pull-request OR\nGo to GitHub page of opening talk, fork the repo, fix the mistakes, then pull-request\nMerge of pull request\n\nShow GitHub desktop, RStudio, and Quarto all working together\n\nTeaching GitHub\nUsing GitHub to Teach\n\n\nResources\nTeaching with GitHub and R, ghclass R package. https://github.com/rundel/ghclass\nhttps://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources\nhttps://github.com/skills/introduction-to-github?tab=readme-ov-file\nGitHub Educators https://docs.github.com/en/education/quickstart\nhttps://hbctraining.github.io/Training-modules/Git-Github\nhttps://swcarpentry.github.io/git-novice/\nhttps://joeyklee.github.io/friendly-github-intro/#schedule\nHappy Git and GitHub for the useR https://happygitwithr.com/\n\n\nReferences\n\nDogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. Journal of Statistics and Data Science Education, 0(ja), 1–25. https://doi.org/10.1080/26939169.2022.2138645\nBeckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., & Tackett, M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 29(sup1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485\nÇetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#accepting-your-work",
+    "href": "GitHubWorkshop.html#accepting-your-work",
+    "title": "Git and GitHub",
+    "section": "Accepting Your Work",
+    "text": "Accepting Your Work\n\nThe owner of the repo can accept your pull-request and add your changes to the main repository\nThis is just one way to use version control and collaborate on GitHub!"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#more-collaboration",
+    "href": "GitHubWorkshop.html#more-collaboration",
+    "title": "Git and GitHub",
+    "section": "More Collaboration",
+    "text": "More Collaboration\n\nA repo can have many contributors with many different levels of access. Example: https://github.com/tidyverse/datascience-box\nProjects can be used to create boards (like Trello) to facilitate effective collaboration\nHow to revert a change to a repository"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#teaching-github",
+    "href": "GitHubWorkshop.html#teaching-github",
+    "title": "Git and GitHub",
+    "section": "Teaching GitHub",
+    "text": "Teaching GitHub\n\nGitHub Class Example\n\n\n\nNeeds to be a learning Objective (Beckman, et. al, 2021)\nUse it to enhance learning and collaboration\nNeed to give a task that necessitates a team\nProjects and Kanban Board"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#using-github-to-teach",
+    "href": "GitHubWorkshop.html#using-github-to-teach",
+    "title": "Git and GitHub",
+    "section": "Using GitHub to Teach",
+    "text": "Using GitHub to Teach\n\nGitHub Classroom. https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom\nCloning others resources\n\nDSC 223 https://dsc223-sb7-2024.github.io/DSC223_S24_website/\nSTA 362 https://sta362-sb8-24.github.io/STA362StatLearning/\nOriginally Clones of Mine Çetinkaya-Rundel sites. https://mine-cr.com/teaching/\n\nTemplate Repositories\nGitHub Actions\n\n\n\n\nData Science Tools https://bit.ly/DSToolsGH"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#i-show-you-try-12",
+    "href": "GitHubWorkshop.html#i-show-you-try-12",
+    "title": "Git and GitHub",
+    "section": "I show, you try (1/2)",
+    "text": "I show, you try (1/2)\n\nFork the following repository: https://github.com/stats-tgeorge/G_GH_Workshop_2024. It is useful to change the title slightly.\nClick into the peoples_bios folder\nClick Add file and then create new file on the right\nName your file with your last name, first initial at the top (or your fictional characters name)\n\nExample: George_T.txt\n\nWrite you bio in the document\nClick Commit changes… on top right\nClick Commit changes"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#i-show-you-try-22",
+    "href": "GitHubWorkshop.html#i-show-you-try-22",
+    "title": "Git and GitHub",
+    "section": "I show, you try (2/2)",
+    "text": "I show, you try (2/2)\n\nNavigate back to the main page of your Fork of the repo by clicking its name at the top\nNow, in the middle of the page, you should see Contribute. Click that and then Open pull request\nClick Create pull request at the bottom."
   }
 ]

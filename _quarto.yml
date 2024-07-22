@@ -6,10 +6,12 @@ website:
   title: "Data Science Tools Workshop"
   navbar:
     right:
-      - href: Intro_Git_Github.qmd
-        text: Slides
       - href: index.qmd
         text: "About the Workshop"
+      - href: Intro_Git_Github.qmd
+        text: "Presentation Slides"
+      - href: GitHubWorkshop.qmd
+        text: "Workshop Slides"
         
 format:
   html:

@@ -21,30 +21,62 @@ You can create a free account at: <https://github.com/>
   * Create a repository
   * Open or view issues
   * Clone a Repository
-  * :star: a Repository
+  * Star a Repository
   * Fork A repository
 
 ## GitHub Workflow
 
 IMAGE FOR WORKFLOW WITH FORKS AND PULL REQUESTS
 
-## I show, you try
-  * Fork the following repository: <https://github.com/stats-tgeorge/G_GH_Workshop_2024>
-  * How to add a file to a folder on GitHub
-  * Create a file about yourself or a fictional character
-  * Show Merging a Pull Request
-- Show how I review and accept pull requests as the owner of the repository
+## I show, you try (1/2) {.smaller}
+  * Fork the following repository: <https://github.com/stats-tgeorge/G_GH_Workshop_2024>. It is useful to change the title slightly. 
+  * Click into the *peoples_bios* folder
+  * Click *Add file* and then *create new file* on the right
+  * Name your file with your last name, first initial at the top (or your fictional characters name)
+    - Example: **George_T.txt**
+  * Write you bio in the document
+  * Click *Commit changes...* on top right
+  * Click *Commit changes*
+
+
+## I show, you try (2/2) {.smaller}
+
+  * Navigate back to the main page of your Fork of the repo by clicking its name at the top
+  * Now, in the middle of the page, you should see *Contribute*. Click that and then *Open pull request*
+  * Click *Create pull request* at the bottom.
+  
+## Accepting Your Work
+
+- The owner of the repo can accept your pull-request and add your changes to the main repository
+
+- This is just one way to use version control and collaborate on GitHub!
+
+
+## More Collaboration
+- A repo can have many contributors with many different levels of access. Example: <https://github.com/tidyverse/datascience-box>
+
+- Projects can be used to create boards (like Trello) to facilitate effective collaboration
+
+
 - How to revert a change to a repository
 
-- Teaching GitHub
+## Teaching GitHub
+
+::: {.panel-tabset}
+
+### {}
   * Needs to be a learning Objective (Beckman, et. al, 2021)
-  * Kanban Boards
   * Use it to enhance learning and collaboration
   * Need to give a task that necessitates a team
-  
+  * Projects and Kanban Board
+
+### GitHub Class Example
+
 ![](imgs/LabCycle.png)
 
-- Using GitHub to Teach
+:::
+
+## Using GitHub to Teach
   * GitHub Classroom. <https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom>
   * Cloning others resources
     - DSC 223 <https://dsc223-sb7-2024.github.io/DSC223_S24_website/>
