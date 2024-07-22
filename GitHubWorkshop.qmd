@@ -1,0 +1,54 @@
+---
+title: "Git and GitHub"
+subtitle: "Workshop: Data Science Tools"
+author: "Tyler George, Cornell College"
+format: 
+  revealjs:
+    theme: [default, styles.scss]
+    footer: "Data Science Tools   <https://bit.ly/DSToolsGH>"
+    incremental: true 
+    slide-number: true
+    preview-links: false
+---
+
+## Git commands and terminology
+
+## Create GitHub accounts
+
+You can create a free account at: <https://github.com/>
+
+## How do you...
+  * Create a repository
+  * Open or view issues
+  * Clone a Repository
+  * :star: a Repository
+  * Fork A repository
+
+## GitHub Workflow
+
+IMAGE FOR WORKFLOW WITH FORKS AND PULL REQUESTS
+
+## I show, you try
+  * Fork the following repository: <https://github.com/stats-tgeorge/G_GH_Workshop_2024>
+  * How to add a file to a folder on GitHub
+  * Create a file about yourself or a fictional character
+  * Show Merging a Pull Request
+- Show how I review and accept pull requests as the owner of the repository
+- How to revert a change to a repository
+
+- Teaching GitHub
+  * Needs to be a learning Objective (Beckman, et. al, 2021)
+  * Kanban Boards
+  * Use it to enhance learning and collaboration
+  * Need to give a task that necessitates a team
+  
+![](imgs/LabCycle.png)
+
+- Using GitHub to Teach
+  * GitHub Classroom. <https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom>
+  * Cloning others resources
+    - DSC 223 <https://dsc223-sb7-2024.github.io/DSC223_S24_website/>
+    - STA 362 <https://sta362-sb8-24.github.io/STA362StatLearning/>
+    - Originally Clones of Mine Çetinkaya-Rundel sites. <https://mine-cr.com/teaching/>
+  * Template Repositories
+  * GitHub Actions 

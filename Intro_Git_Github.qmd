@@ -35,7 +35,7 @@ format:
 
 ![](imgs/script_name_e2.png)
 
-## What wrong with this? 
+## What wrong with this?
 
 -   In the chat, guess the problems this approach led to...
 
@@ -43,10 +43,10 @@ format:
 
 I was slightly amused at the time, but it lead to bad outcomes
 
-  -   Team members didn't know what script file had what in it
-  -   They confused versions of data, scripts, and papers
-  -   They built models on old variants of data
-  -   In the end, their work was not trustworthy
+-   Team members didn't know what script file had what in it
+-   They confused versions of data, scripts, and papers
+-   They built models on old variants of data
+-   In the end, their work was not trustworthy
 
 ## (Some) Important Components of Good Analaysis'
 
@@ -84,8 +84,7 @@ I was slightly amused at the time, but it lead to bad outcomes
 
 ## A collaboration tool (1/2)
 
-![](imgs/GH_collab_diagram.png)
-Source: mozilla ScienceLab, [A Friendly Github intro Workshop](https://joeyklee.github.io/friendly-github-intro/#schedule)
+![](imgs/GH_collab_diagram.png) Source: mozilla ScienceLab, [A Friendly Github intro Workshop](https://joeyklee.github.io/friendly-github-intro/#schedule)
 
 ## A collaboration tool (2/2)
 
@@ -99,24 +98,25 @@ Source: mozilla ScienceLab, [A Friendly Github intro Workshop](https://joeyklee.
 
 ## Research on Using GitHub in the classroom {.smaller}
 
-- Dogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. Journal of Statistics and Data Science Education, 0(ja), 1–25. https://doi.org/10.1080/26939169.2022.2138645
+-   Dogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. Journal of Statistics and Data Science Education, 0(ja), 1–25. https://doi.org/10.1080/26939169.2022.2138645
 
-- Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., & Tackett, M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 29(sup1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485
+-   Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., & Tackett, M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 29(sup1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485
 
-- Çetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549
-
+-   Çetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549
 
 ## Opiniated reasons to use Git/GitHub
-- Free
-- coding (I use R)
-- forced collaboration
-- students make more deliberate choices
-- integration in RStudio
-- GitHub Pages
-- Student Job preparedness
 
-## What to expect in the GitHub Workshop? 
-- Git and GitHub terminology
-- Hands on practice collaboration: Fork a repo and complete a pull request
-- Help me fix my typos 
-- Additional options for educators
+-   Free
+-   coding (I use R)
+-   forced collaboration
+-   students make more deliberate choices
+-   integration in RStudio
+-   GitHub Pages
+-   Student Job preparedness
+
+## What to expect in the GitHub Workshop?
+
+-   Git and GitHub terminology
+-   Hands on practice collaboration: Fork a repo and complete a pull request
+-   Help me fix my typos
+-   Additional options for educators
