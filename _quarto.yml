@@ -3,13 +3,14 @@ project:
   output-dir: docs
   
 website:
-  title: "G_GH_Workshop_2024"
+  title: "Data Science Tools Workshop Materials for Lessons on Git and Github"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      - href: Intro_Git_Github.qmd
+        text: Slides
+      - href: about.qmd
+        text: "About the Workshop"
+        
 format:
   html:
     theme: cosmo

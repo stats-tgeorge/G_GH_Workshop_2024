@@ -1,0 +1,6 @@
+---
+title: "Overview of GitHub"
+subtitle: "Workshop: Data Science Tools"
+author: "Tyler George, Cornell College"
+format: revealjs
+---
