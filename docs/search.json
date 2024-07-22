@@ -105,18 +105,53 @@
     "text": "What to expect in the GitHub Workshop?\n\nGit and GitHub terminology\nHands on practice collaboration: Fork a repo and complete a pull request\nHelp me fix my typos\nAdditional options for educators\n\n\n\n\nData Science Tools https://bit.ly/DSToolsGH"
   },
   {
+    "objectID": "GitHubWorkshop.html#git-commands-and-terminology",
+    "href": "GitHubWorkshop.html#git-commands-and-terminology",
+    "title": "Git and GitHub",
+    "section": "Git commands and terminology",
+    "text": "Git commands and terminology"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#create-github-accounts",
+    "href": "GitHubWorkshop.html#create-github-accounts",
+    "title": "Git and GitHub",
+    "section": "Create GitHub accounts",
+    "text": "Create GitHub accounts\nYou can create a free account at: https://github.com/"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#how-do-you",
+    "href": "GitHubWorkshop.html#how-do-you",
+    "title": "Git and GitHub",
+    "section": "How do you…",
+    "text": "How do you…\n\nCreate a repository\nOpen or view issues\nClone a Repository\n:star: a Repository\nFork A repository"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#github-workflow",
+    "href": "GitHubWorkshop.html#github-workflow",
+    "title": "Git and GitHub",
+    "section": "GitHub Workflow",
+    "text": "GitHub Workflow\nIMAGE FOR WORKFLOW WITH FORKS AND PULL REQUESTS"
+  },
+  {
+    "objectID": "GitHubWorkshop.html#i-show-you-try",
+    "href": "GitHubWorkshop.html#i-show-you-try",
+    "title": "Git and GitHub",
+    "section": "I show, you try",
+    "text": "I show, you try\n\nFork the following repository: https://github.com/stats-tgeorge/G_GH_Workshop_2024\nHow to add a file to a folder on GitHub\nCreate a file about yourself or a fictional character\nShow Merging a Pull Request\nShow how I review and accept pull requests as the owner of the repository\nHow to revert a change to a repository\nTeaching GitHub\n\nNeeds to be a learning Objective (Beckman, et. al, 2021)\nKanban Boards\nUse it to enhance learning and collaboration\nNeed to give a task that necessitates a team\n\n\n\n\nUsing GitHub to Teach\n\nGitHub Classroom. https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom\nCloning others resources\n\nDSC 223 https://dsc223-sb7-2024.github.io/DSC223_S24_website/\nSTA 362 https://sta362-sb8-24.github.io/STA362StatLearning/\nOriginally Clones of Mine Çetinkaya-Rundel sites. https://mine-cr.com/teaching/\n\nTemplate Repositories\nGitHub Actions\n\n\n\n\n\nData Science Tools https://bit.ly/DSToolsGH"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Data Science Tools",
     "section": "",
-    "text": "Slides are at: &lt;https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html&gt;. Short link at https://bit.ly/DSToolsGH."
+    "text": "Slides are at: https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html. Short link at https://bit.ly/DSToolsGH."
   },
   {
     "objectID": "index.html#materials-for-lessons-on-git-and-github",
     "href": "index.html#materials-for-lessons-on-git-and-github",
     "title": "Data Science Tools",
     "section": "",
-    "text": "Slides are at: &lt;https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html&gt;. Short link at https://bit.ly/DSToolsGH."
+    "text": "Slides are at: https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html. Short link at https://bit.ly/DSToolsGH."
   },
   {
     "objectID": "index.html#workshop-round-1",
@@ -126,17 +161,10 @@
     "text": "Workshop Round 1\n\nIntroduction into Git commands and terminology\nCreate GitHub accounts and general overview\nPractice forking a repo, creating a new file, and pull-request\nMerge of pull request\nHow to revert a repo change\nCreating website with GitHub Pages\nTeaching GitHub\nUsing GitHub to Teach"
   },
   {
-    "objectID": "index.html#workshop-round-2",
-    "href": "index.html#workshop-round-2",
+    "objectID": "index.html#workshop-round-2-50-70-overlap",
+    "href": "index.html#workshop-round-2-50-70-overlap",
     "title": "Data Science Tools",
-    "section": "Workshop Round 2",
-    "text": "Workshop Round 2\n\nIntroduction into Git commands and terminology\nCreate GitHub accounts and general overview\nPractice forking a repo, creating a new file, and pull-request OR\nGo to GitHub page of opening talk, fork the repo, fix the mistakes, then pull-request\nMerge of pull request\n\nShow GitHub desktop, RStudio, and Quarto all working together\n\nTeaching GitHub\nUsing GitHub to Teach\n\n\nResources\nTeaching with GitHub and R, ghclass R package. https://github.com/rundel/ghclass\nhttps://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources\nhttps://github.com/skills/introduction-to-github?tab=readme-ov-file\nGitHub Educators https://docs.github.com/en/education/quickstart\nhttps://hbctraining.github.io/Training-modules/Git-Github\nhttps://swcarpentry.github.io/git-novice/\nhttps://joeyklee.github.io/friendly-github-intro/#schedule\nHappy Git and GitHub for the useR https://happygitwithr.com/\n\n\nReferences\n\nDogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. Journal of Statistics and Data Science Education, 0(ja), 1–25. https://doi.org/10.1080/26939169.2022.2138645\nBeckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., & Tackett, M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 29(sup1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485\nÇetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549"
-  },
-  {
-    "objectID": "GitHubWorkshop.html",
-    "href": "GitHubWorkshop.html",
-    "title": "Overview of GitHub",
-    "section": "",
-    "text": "Introduction into Git commands and terminology\nCreate GitHub accounts general walk around\n\nCreating a repository\nIssues\nCloning a Repository\n:star: a Repository\nForking A repository. Fork this one.\nHow to add a file to a folder on GitHub\nCreate a file about yourself or a fictional character\nShow Merging a Pull Request\n\nShow how I review and accept pull requests as the owner of the repository\nHow to revert a change to a repository\nTeaching GitHub\n\nNeeds to be a learning Objective (Beckman, et. al, 2021)\nKanban Boards\nUse it to enhance learning and collaboration\nNeed to give a task that necessitates a team\n\n\n\n\nUsing GitHub to Teach\n\nGitHub Classroom. https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom\nCloning others resources\n\nDSC 223 https://dsc223-sb7-2024.github.io/DSC223_S24_website/\nSTA 362 https://sta362-sb8-24.github.io/STA362StatLearning/\nOriginally Clones of Mine Çetinkaya-Rundel sites. https://mine-cr.com/teaching/\n\nTemplate Repositories\nGitHub Actions"
+    "section": "Workshop Round 2 (50%-70% overlap)",
+    "text": "Workshop Round 2 (50%-70% overlap)\n\nIntroduction into Git commands and terminology\nCreate GitHub accounts and general overview\nPractice forking a repo, creating a new file, and pull-request OR\nGo to GitHub page of opening talk, fork the repo, fix the mistakes, then pull-request\nMerge of pull request\n\nShow GitHub desktop, RStudio, and Quarto all working together\n\nTeaching GitHub\nUsing GitHub to Teach\n\n\nResources\nTeaching with GitHub and R, ghclass R package. https://github.com/rundel/ghclass\nhttps://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources\nhttps://github.com/skills/introduction-to-github?tab=readme-ov-file\nGitHub Educators https://docs.github.com/en/education/quickstart\nhttps://hbctraining.github.io/Training-modules/Git-Github\nhttps://swcarpentry.github.io/git-novice/\nhttps://joeyklee.github.io/friendly-github-intro/#schedule\nHappy Git and GitHub for the useR https://happygitwithr.com/\n\n\nReferences\n\nDogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. Journal of Statistics and Data Science Education, 0(ja), 1–25. https://doi.org/10.1080/26939169.2022.2138645\nBeckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., & Tackett, M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 29(sup1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485\nÇetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549"
   }
 ]
