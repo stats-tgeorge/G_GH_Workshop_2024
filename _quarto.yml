@@ -3,9 +3,9 @@ project:
   output-dir: docs
   
 website:
-  title: "Data Science Tools Workshop Materials for Lessons on Git and Github"
+  title: "Data Science Tools Workshop"
   navbar:
-    left:
+    right:
       - href: Intro_Git_Github.qmd
         text: Slides
       - href: about.qmd
@@ -13,8 +13,8 @@ website:
         
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: litera
+    css: styles.scss
     toc: true
 
 editor: visual

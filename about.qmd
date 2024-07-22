@@ -1,5 +1,0 @@
----
-title: "About"
----
-
-This will be about the workshop.

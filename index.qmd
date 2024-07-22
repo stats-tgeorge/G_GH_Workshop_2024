@@ -1,11 +1,7 @@
 ---
-title: "G_GH_Workshop_2024"
+title: "Data Science Tools"
 ---
 
-This is a Quarto website.
+## Materials for Lessons on Git and GitHub
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Slides are at: \<[https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html](https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html#/title-slide)\>. Short link at <https://bit.ly/DSToolsGH>.

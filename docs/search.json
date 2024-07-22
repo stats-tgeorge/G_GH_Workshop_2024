@@ -1,16 +1,121 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This will be about the workshop."
+    "objectID": "Intro_Git_Github.html#what-do-i-name-my-file",
+    "href": "Intro_Git_Github.html#what-do-i-name-my-file",
+    "title": "Overview of GitHub",
+    "section": "What do I name my file?",
+    "text": "What do I name my file?\n\nHave your students ever named files in strange ways?\n3 years ago I oversaw my 3 students doing research with Covid-19 data….\nTheir files names included…"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#what-wrong-with-this",
+    "href": "Intro_Git_Github.html#what-wrong-with-this",
+    "title": "Overview of GitHub",
+    "section": "What wrong with this?",
+    "text": "What wrong with this?\n\nIn the chat, guess the problems this approach led to…"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#funny-but-what-now",
+    "href": "Intro_Git_Github.html#funny-but-what-now",
+    "title": "Overview of GitHub",
+    "section": "Funny, but what now?",
+    "text": "Funny, but what now?\nI was slightly amused at the time, but it lead to bad outcomes\n\nTeam members didn’t know what script file had what in it\nThey confused versions of data, scripts, and papers\nThey built models on old variants of data\nIn the end, their work was not trustworthy"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#some-important-components-of-good-analaysis",
+    "href": "Intro_Git_Github.html#some-important-components-of-good-analaysis",
+    "title": "Overview of GitHub",
+    "section": "(Some) Important Components of Good Analaysis’",
+    "text": "(Some) Important Components of Good Analaysis’\n\nReproducibility\nCollaboration"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#what-is-git",
+    "href": "Intro_Git_Github.html#what-is-git",
+    "title": "Overview of GitHub",
+    "section": "What is Git?",
+    "text": "What is Git?\n“Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.” (git, https://git-scm.com/)\n\na software\nversion control\nnatively operates in a terminal"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#google-docs-version-control-12",
+    "href": "Intro_Git_Github.html#google-docs-version-control-12",
+    "title": "Overview of GitHub",
+    "section": "Google Docs Version Control (1/2)",
+    "text": "Google Docs Version Control (1/2)"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#google-docs-version-control-22",
+    "href": "Intro_Git_Github.html#google-docs-version-control-22",
+    "title": "Overview of GitHub",
+    "section": "Google Docs Version Control (2/2)",
+    "text": "Google Docs Version Control (2/2)"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#what-is-github",
+    "href": "Intro_Git_Github.html#what-is-github",
+    "title": "Overview of GitHub",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n“GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software” (Wikipedia, 2024, https://en.wikipedia.org/wiki/GitHub)"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#a-service-that-hosts-your-repository-filesfolders-online",
+    "href": "Intro_Git_Github.html#a-service-that-hosts-your-repository-filesfolders-online",
+    "title": "Overview of GitHub",
+    "section": "A service that hosts your repository (files/folders) online",
+    "text": "A service that hosts your repository (files/folders) online"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#a-collaboration-tool-12",
+    "href": "Intro_Git_Github.html#a-collaboration-tool-12",
+    "title": "Overview of GitHub",
+    "section": "A collaboration tool (1/2)",
+    "text": "A collaboration tool (1/2)\n Source: mozilla ScienceLab, A Friendly Github intro Workshop"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#a-collaboration-tool-22",
+    "href": "Intro_Git_Github.html#a-collaboration-tool-22",
+    "title": "Overview of GitHub",
+    "section": "A collaboration tool (2/2)",
+    "text": "A collaboration tool (2/2)\n\nSource: mozilla ScienceLab, A Friendly Github intro Workshop"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#an-app-github-desktop",
+    "href": "Intro_Git_Github.html#an-app-github-desktop",
+    "title": "Overview of GitHub",
+    "section": "An app (GitHub Desktop)",
+    "text": "An app (GitHub Desktop)"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#research-on-using-github-in-the-classroom",
+    "href": "Intro_Git_Github.html#research-on-using-github-in-the-classroom",
+    "title": "Overview of GitHub",
+    "section": "Research on Using GitHub in the classroom",
+    "text": "Research on Using GitHub in the classroom\n\nDogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. Journal of Statistics and Data Science Education, 0(ja), 1–25. https://doi.org/10.1080/26939169.2022.2138645\nBeckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., & Tackett, M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 29(sup1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485\nÇetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#opiniated-reasons-to-use-gitgithub",
+    "href": "Intro_Git_Github.html#opiniated-reasons-to-use-gitgithub",
+    "title": "Overview of GitHub",
+    "section": "Opiniated reasons to use Git/GitHub",
+    "text": "Opiniated reasons to use Git/GitHub\n\nFree\ncoding (I use R)\nforced collaboration\nstudents make more deliberate choices\nintegration in RStudio\nGitHub Pages\nStudent Job preparedness"
+  },
+  {
+    "objectID": "Intro_Git_Github.html#what-to-expect-in-the-github-workshop",
+    "href": "Intro_Git_Github.html#what-to-expect-in-the-github-workshop",
+    "title": "Overview of GitHub",
+    "section": "What to expect in the GitHub Workshop?",
+    "text": "What to expect in the GitHub Workshop?\n\nGit and GitHub terminology\nHands on practice collaboration: Fork a repo and complete a pull request\nHelp me fix my typos\nAdditional options for educators\n\n\n\n\nData Science Tools https://bit.ly/DSToolsGH"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "G_GH_Workshop_2024",
+    "title": "Data Science Tools",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Slides are at: &lt;https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html&gt;. Short link at https://bit.ly/DSToolsGH."
+  },
+  {
+    "objectID": "index.html#materials-for-lessons-on-git-and-github",
+    "href": "index.html#materials-for-lessons-on-git-and-github",
+    "title": "Data Science Tools",
+    "section": "",
+    "text": "Slides are at: &lt;https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html&gt;. Short link at https://bit.ly/DSToolsGH."
   }
 ]
