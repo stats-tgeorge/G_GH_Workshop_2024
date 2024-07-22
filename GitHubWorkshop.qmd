@@ -11,24 +11,44 @@ format:
     preview-links: false
 ---
 
-## Git commands and terminology
-
 ## Create GitHub accounts
 
 You can create a free account at: <https://github.com/>
+
+## Git/GitHub terminology {.smaller}
+- repository
+- clone
+- pull
+- commit
+- push
+- fork
+- merge
+- master/main
+- branch
+- fetch
+
+Definitions at: <https://www.pluralsight.com/resources/blog/cloud/git-terms-explained>
+
+## GitHub Workflow
+
+![](imgs/Git-with-GitHub-Workflows.png)
+
+Credit: Robert B Cohen
 
 ## How do you...
   * Create a repository
   * Open or view issues
   * Clone a Repository
   * Star a Repository
-  * Fork A repository
+  * Fork a repository
 
 ## GitHub Workflow
 
-IMAGE FOR WORKFLOW WITH FORKS AND PULL REQUESTS
+![](imgs/Git-with-GitHub-Workflows.png)
 
-## I show, you try (1/2) {.smaller}
+Credit: Robert B Cohen
+
+## Follow Along (1/2) {.smaller}
   * Fork the following repository: <https://github.com/stats-tgeorge/G_GH_Workshop_2024>. It is useful to change the title slightly. 
   * Click into the *peoples_bios* folder
   * Click *Add file* and then *create new file* on the right
@@ -39,7 +59,7 @@ IMAGE FOR WORKFLOW WITH FORKS AND PULL REQUESTS
   * Click *Commit changes*
 
 
-## I show, you try (2/2) {.smaller}
+## Follow Along  (2/2) {.smaller}
 
   * Navigate back to the main page of your Fork of the repo by clicking its name at the top
   * Now, in the middle of the page, you should see *Contribute*. Click that and then *Open pull request*
@@ -57,6 +77,9 @@ IMAGE FOR WORKFLOW WITH FORKS AND PULL REQUESTS
 
 - Projects can be used to create boards (like Trello) to facilitate effective collaboration
 
+## Revert a change
+
+- Reverting a change is one of the most important features of version control. I'll show this in GitHub Desktop
 
 - How to revert a change to a repository
 
@@ -64,21 +87,21 @@ IMAGE FOR WORKFLOW WITH FORKS AND PULL REQUESTS
 
 ::: {.panel-tabset}
 
-### {}
-  * Needs to be a learning Objective (Beckman, et. al, 2021)
+### Teaching
+  * Git/GitHub need to be learning objectives (Beckman, et. al, 2021)
   * Use it to enhance learning and collaboration
-  * Need to give a task that necessitates a team
-  * Projects and Kanban Board
+  * Need to give a tasks that necessitates a team
+  * Projects and Kanban Boards
 
-### GitHub Class Example
+### GitHub in Class
 
 ![](imgs/LabCycle.png)
 
 :::
 
-## Using GitHub to Teach
+## Using GitHub to Teach and More {.smaller}
   * GitHub Classroom. <https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom>
-  * Cloning others resources
+  * Cloning others resources (checking license first)
     - DSC 223 <https://dsc223-sb7-2024.github.io/DSC223_S24_website/>
     - STA 362 <https://sta362-sb8-24.github.io/STA362StatLearning/>
     - Originally Clones of Mine Çetinkaya-Rundel sites. <https://mine-cr.com/teaching/>

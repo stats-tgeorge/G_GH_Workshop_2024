@@ -29,21 +29,23 @@ Slides are at: [https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Git
 
 ### Resources
 
-Teaching with GitHub and R, **ghclass** R package. <https://github.com/rundel/ghclass>
+-   Teaching with GitHub and R, **ghclass** R package. <https://github.com/rundel/ghclass>
 
-<https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources>
+-   Getting started with Git: <https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources>
 
-<https://github.com/skills/introduction-to-github?tab=readme-ov-file>
+-   Introduction to Git Shortcourse: <https://github.com/skills/introduction-to-github?tab=readme-ov-file>
 
-GitHub Educators <https://docs.github.com/en/education/quickstart>
+-   GitHub Educators <https://docs.github.com/en/education/quickstart>
 
-<https://hbctraining.github.io/Training-modules/Git-Github>
+-   GitHub Workshop: <https://hbctraining.github.io/Training-modules/Git-Github>
 
-<https://swcarpentry.github.io/git-novice/>
+-   Software Carpentry Git and Github Intro: <https://swcarpentry.github.io/git-novice/>
 
-<https://joeyklee.github.io/friendly-github-intro/#schedule>
+-   mozilla Git and Github Workshop: <https://joeyklee.github.io/friendly-github-intro/#schedule>
 
-Happy Git and GitHub for the useR <https://happygitwithr.com/>
+-   Happy Git and GitHub for the useR <https://happygitwithr.com/>
+
+-   Git Definitions and Terminology Cheat Sheet: <https://www.pluralsight.com/resources/blog/cloud/git-terms-explained>
 
 ### References
 

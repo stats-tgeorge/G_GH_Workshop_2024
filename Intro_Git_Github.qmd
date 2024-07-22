@@ -64,7 +64,7 @@ I was slightly amused at the time, but it lead to bad outcomes
 
 -   version control
 
--   natively operates in a terminal
+-   operates in a terminal
 
 ## Google Docs Version Control (1/2)
 
