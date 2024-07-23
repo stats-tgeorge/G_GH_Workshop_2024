@@ -66,7 +66,6 @@ Credit: Robert B Cohen
 -   Click *Create pull request* at the bottom.
 
 ### Fix Typos (R2)
-
 -   Update your fork by clicking the *Sync Fork* button on the repo homepage at <https://github.com/stats-tgeorge/G_GH_Workshop_2024>.
 -   **Your Task:** Fix my typos in the opening overview presentation I gave. The filename is *Intro_Git_Github.qmd*. You will need to edit that file, commit the changes, then create a pull-request.
 :::
