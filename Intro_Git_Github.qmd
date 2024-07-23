@@ -49,7 +49,7 @@ I was slightly amused at the time, but it led to bad outcomes
 -   They built models on old variants of data
 -   In the end, their work was not trustworthy
 
-## (Some) Important Components of Good Analysis
+## (Some) Important Components of Good Analysis'
 
 -   Reproducibility
 
