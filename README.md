@@ -1,7 +1,3 @@
----
-title: ""
----
-
 ## Materials for Lessons on Git and GitHub
 July 23rd, 2024
 
