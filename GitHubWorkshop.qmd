@@ -57,8 +57,8 @@ Credit: Robert B Cohen
 
 -   Fork repo: <https://github.com/stats-tgeorge/G_GH_Workshop_2024>.
 -   Click *peoples_bios* folder
--   Click *Add file* and then *create new file* on the right
--   Name your file with your last name, first initial at the top. Example: **George_T.txt**
+-   Click *Add file*, then *create new file* on the right
+-   Name your file with your last name, first initial (at the top). Example: **George_T.md**
 -   Write you bio in the document
 -   Click *Commit changes...* on the top right. Then *Commit changes*
 -   Navigate back to the main page of your Fork of the repo by clicking its name at the top
