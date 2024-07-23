@@ -9,10 +9,10 @@ July 23rd, 2024
 <https://bit.ly/DSTools_GGH>
 
 #### Overview Presentation Slides at:
-<https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html#/title-slide>
+<https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html>
 
 #### Workshop Slides at:
-<https://stats-tgeorge.github.io/G_GH_Workshop_2024/GitHubWorkshop.html#/title-slide>
+<https://stats-tgeorge.github.io/G_GH_Workshop_2024/GitHubWorkshop.html>
 
 ### Workshop Round 1 
 30 min
