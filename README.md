@@ -13,7 +13,7 @@ July 23rd, 2024
 ### Workshop Round 1 
 30 min
 
--   Introduction into Git commands and terminology
+-   Introduction into Git/GitHub commands and terminology
 -   Create GitHub accounts and general overview
 -   Practice forking a repo, creating a new file, and pull-request
 -   Merge of pull request
@@ -32,8 +32,6 @@ July 23rd, 2024
     -   Show GitHub desktop, RStudio, and Quarto all working together
 -   Teaching GitHub
 -   Using GitHub to Teach
-
-### Participant Bios
 
 
 ### Resources
@@ -65,3 +63,5 @@ July 23rd, 2024
 -   Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., & Tackett, M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 29(sup1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485
 
 -   Çetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549
+
+

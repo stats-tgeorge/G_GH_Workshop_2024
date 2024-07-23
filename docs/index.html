@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-people-bios .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-people-bios'] = new List('listing-people-bios', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.scss">
 </head>
@@ -120,9 +180,9 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#workshop-round-1" id="toc-workshop-round-1" class="nav-link" data-scroll-target="#workshop-round-1">Workshop Round 1</a></li>
   <li><a href="#workshop-round-2" id="toc-workshop-round-2" class="nav-link" data-scroll-target="#workshop-round-2">Workshop Round 2</a></li>
-  <li><a href="#participant-bios" id="toc-participant-bios" class="nav-link" data-scroll-target="#participant-bios">Participant Bios</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#participant-bios" id="toc-participant-bios" class="nav-link" data-scroll-target="#participant-bios">Participant Bios</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -152,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="workshop-round-1">Workshop Round 1</h3>
 <p>30 min</p>
 <ul>
-<li>Introduction into Git commands and terminology</li>
+<li>Introduction into Git/GitHub commands and terminology</li>
 <li>Create GitHub accounts and general overview</li>
 <li>Practice forking a repo, creating a new file, and pull-request</li>
 <li>Merge of pull request</li>
@@ -177,9 +237,6 @@ ul.task-list li input[type="checkbox"] {
 <li>Using GitHub to Teach</li>
 </ul>
 </section>
-<section id="participant-bios" class="level3">
-<h3 class="anchored" data-anchor-id="participant-bios">Participant Bios</h3>
-</section>
 <section id="resources" class="level3">
 <h3 class="anchored" data-anchor-id="resources">Resources</h3>
 <ul>
@@ -202,12 +259,37 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., &amp; Tackett, M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 29(sup1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485</p></li>
 <li><p>Çetinkaya-Rundel, M., &amp; Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549</p></li>
 </ul>
+</section>
+<section id="participant-bios" class="level3">
+<h3 class="anchored" data-anchor-id="participant-bios">Participant Bios</h3>
+
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-people-bios">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1721683833811">
+<div class="body">
+
+</div>
+<div class="metadata">
+<p><a href="./peoples_bios\George_T.txt" class="no-external"></a></p><a href="./peoples_bios\George_T.txt" class="no-external">
+<div class="metadata-value listing-filename">
+George_T.txt
+</div>
+<div class="metadata-value listing-file-modified">
+7/22/24, 4:30:33 PM
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

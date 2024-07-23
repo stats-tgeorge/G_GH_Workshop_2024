@@ -1,5 +1,13 @@
 ---
 title: ""
+listing: 
+  id: people-bios
+  contents: "peoples_bios/*.txt"
+  sort: "title desc"
+  type: default
+
 ---
 
 {{< include README.md >}}
+
+### Participant Bios
