@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: "About the Workshop"
       - href: Intro_Git_Github.qmd
-        text: "Presentation Slides"
+        text: "Overeview Presentation Slides"
       - href: GitHubWorkshop.qmd
         text: "Workshop Slides"
         

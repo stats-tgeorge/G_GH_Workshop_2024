@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.4.554">
 
   <meta name="author" content="Tyler George, Cornell College">
-  <title>Data Science Tools Workshop - Git and GitHub</title>
+  <title>Data Science Tools Workshop - Git and GitHub Workshop</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,7 +326,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Git and GitHub</h1>
+  <h1 class="title">Git and GitHub Workshop</h1>
   <p class="subtitle">Workshop: Data Science Tools</p>
 
 <div class="quarto-title-authors">
@@ -345,16 +345,16 @@ Tyler George, Cornell College
 <section id="gitgithub-terminology" class="slide level2 smaller">
 <h2>Git/GitHub terminology</h2>
 <ul>
-<li class="fragment">repository</li>
-<li class="fragment">clone</li>
-<li class="fragment">pull</li>
-<li class="fragment">commit</li>
-<li class="fragment">push</li>
-<li class="fragment">fork</li>
-<li class="fragment">merge</li>
-<li class="fragment">master/main</li>
-<li class="fragment">branch</li>
-<li class="fragment">fetch</li>
+<li class="fragment">repository (files, their relationships, and their history)</li>
+<li class="fragment">clone/fork (copying repos)</li>
+<li class="fragment">pull (refresh your copy)</li>
+<li class="fragment">pull-request (request your version gets merged back to source)</li>
+<li class="fragment">commit (changes to repo)</li>
+<li class="fragment">push (push local the changes back to the source)</li>
+<li class="fragment">merge (combine versions of files or repos)</li>
+<li class="fragment">master/main (root directory of most git repos)</li>
+<li class="fragment">branch (version of repo diverging from the original)</li>
+<li class="fragment">fetch (update cloud version to your version)</li>
 </ul>
 <p>Definitions at: <a href="https://www.pluralsight.com/resources/blog/cloud/git-terms-explained" class="uri">https://www.pluralsight.com/resources/blog/cloud/git-terms-explained</a></p>
 </section>
@@ -378,31 +378,35 @@ Tyler George, Cornell College
 
 <img data-src="imgs/Git-with-GitHub-Workflows.png" class="r-stretch"><p>Credit: Robert B Cohen</p>
 </section>
-<section id="follow-along-12" class="slide level2 smaller">
-<h2>Follow Along (1/2)</h2>
+<section id="collaborate-on-repo---follow-along" class="slide level2 smaller">
+<h2>Collaborate on repo - Follow Along</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Make Bios (R1)</a></li><li><a href="#tabset-1-2">Fix Typos (R2)</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
 <ul>
-<li class="fragment">Fork the following repository: <a href="https://github.com/stats-tgeorge/G_GH_Workshop_2024" class="uri">https://github.com/stats-tgeorge/G_GH_Workshop_2024</a>. It is useful to change the title slightly.</li>
-<li class="fragment">Click into the <em>peoples_bios</em> folder</li>
+<li class="fragment">Fork repo: <a href="https://github.com/stats-tgeorge/G_GH_Workshop_2024" class="uri">https://github.com/stats-tgeorge/G_GH_Workshop_2024</a>.</li>
+<li class="fragment">Click <em>peoples_bios</em> folder</li>
 <li class="fragment">Click <em>Add file</em> and then <em>create new file</em> on the right</li>
-<li class="fragment">Name your file with your last name, first initial at the top (or your fictional characters name)
-<ul>
-<li class="fragment">Example: <strong>George_T.txt</strong></li>
-</ul></li>
+<li class="fragment">Name your file with your last name, first initial at the top. Example: <strong>George_T.txt</strong></li>
 <li class="fragment">Write you bio in the document</li>
-<li class="fragment">Click <em>Commit changes…</em> on top right</li>
-<li class="fragment">Click <em>Commit changes</em></li>
-</ul>
-</section>
-<section id="follow-along-22" class="slide level2 smaller">
-<h2>Follow Along (2/2)</h2>
-<ul>
+<li class="fragment">Click <em>Commit changes…</em> on the top right. Then <em>Commit changes</em></li>
 <li class="fragment">Navigate back to the main page of your Fork of the repo by clicking its name at the top</li>
-<li class="fragment">Now, in the middle of the page, you should see <em>Contribute</em>. Click that and then <em>Open pull request</em></li>
+<li class="fragment">Click <em>Contribute</em> in the middle of the page and then <em>Open pull request</em></li>
 <li class="fragment">Click <em>Create pull request</em> at the bottom.</li>
 </ul>
+</div>
+<div id="tabset-1-2">
+<ul>
+<li class="fragment">Update your fork by clicking the <em>Sync Fork</em> button on the repo homepage at <a href="https://github.com/stats-tgeorge/G_GH_Workshop_2024" class="uri">https://github.com/stats-tgeorge/G_GH_Workshop_2024</a>.</li>
+<li class="fragment"><strong>Your Task:</strong> Fix my typos in the opening overview presentation I gave. The filename is <em>Intro_Git_Github.qmd</em>. You will need to edit that file, commit the changes, then create a pull-request.</li>
+</ul>
+</div>
+</div>
+</div>
 </section>
-<section id="accepting-your-work" class="slide level2">
-<h2>Accepting Your Work</h2>
+<section id="accepting-contributors-work" class="slide level2">
+<h2>Accepting Contributors Work</h2>
 <ul>
 <li class="fragment"><p>The owner of the repo can accept your pull-request and add your changes to the main repository</p></li>
 <li class="fragment"><p>This is just one way to use version control and collaborate on GitHub!</p></li>
@@ -418,16 +422,17 @@ Tyler George, Cornell College
 <section id="revert-a-change" class="slide level2">
 <h2>Revert a change</h2>
 <ul>
-<li class="fragment"><p>Reverting a change is one of the most important features of version control. I’ll show this in GitHub Desktop</p></li>
-<li class="fragment"><p>How to revert a change to a repository</p></li>
+<li class="fragment"><p>Reverting a change is one of the most important features of version control.</p></li>
+<li class="fragment"><p>Right now, it <em>not</em> possible on GitHub’s website</p></li>
+<li class="fragment"><p>I will show you how to revert a change on the GitHub desktop app</p></li>
 </ul>
 </section>
 <section id="teaching-github" class="slide level2">
 <h2>Teaching GitHub</h2>
 <div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Teaching</a></li><li><a href="#tabset-1-2">GitHub in Class</a></li></ul>
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Teaching</a></li><li><a href="#tabset-2-2">GitHub in Class</a></li></ul>
 <div class="tab-content">
-<div id="tabset-1-1">
+<div id="tabset-2-1">
 <ul>
 <li class="fragment">Git/GitHub need to be learning objectives (Beckman, et. al, 2021)</li>
 <li class="fragment">Use it to enhance learning and collaboration</li>
@@ -435,29 +440,37 @@ Tyler George, Cornell College
 <li class="fragment">Projects and Kanban Boards</li>
 </ul>
 </div>
-<div id="tabset-1-2">
+<div id="tabset-2-2">
 <p><img data-src="imgs/LabCycle.png"></p>
 </div>
 </div>
 </div>
 </section>
-<section id="using-github-to-teach-and-more" class="slide level2 smaller">
-<h2>Using GitHub to Teach and More</h2>
+<section id="using-github-to-teach-and-more-12" class="slide level2 smaller">
+<h2>Using GitHub to Teach and More (1/2)</h2>
 <ul>
-<li class="fragment">GitHub Classroom. <a href="https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom" class="uri">https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom</a></li>
+<li class="fragment"><p>In order to use some of GitHub’s features, and use even more for free (rather than with a fee), you need to apply to GitHub Education as a teacher. <a href="https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher" class="uri">https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher</a></p></li>
+<li class="fragment"><p>GitHub Classroom. <a href="https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom" class="uri">https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom</a></p></li>
+<li class="fragment"><p>GitHub organizations. <a href="https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations">Read more.</a></p></li>
+<li class="fragment"><p>Many instructors use GitHub organizations to create, share, and assign work to students few, or many (over 500) repositories</p></li>
+<li class="fragment"><p>If using R, there are packages to support this, including <em>ghclass</em> and <em>gradetools</em></p></li>
+</ul>
+</section>
+<section id="using-github-to-teach-and-more-22" class="slide level2 smaller">
+<h2>Using GitHub to Teach and More (2/2)</h2>
+<ul>
 <li class="fragment">Cloning others resources (checking license first)
 <ul>
 <li class="fragment">DSC 223 <a href="https://dsc223-sb7-2024.github.io/DSC223_S24_website/" class="uri">https://dsc223-sb7-2024.github.io/DSC223_S24_website/</a></li>
 <li class="fragment">STA 362 <a href="https://sta362-sb8-24.github.io/STA362StatLearning/" class="uri">https://sta362-sb8-24.github.io/STA362StatLearning/</a></li>
 <li class="fragment">Originally Clones of Mine Çetinkaya-Rundel sites. <a href="https://mine-cr.com/teaching/" class="uri">https://mine-cr.com/teaching/</a></li>
 </ul></li>
-<li class="fragment">Template Repositories</li>
 <li class="fragment">GitHub Actions</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
-<p>Data Science Tools <a href="https://bit.ly/DSToolsGH" class="uri">https://bit.ly/DSToolsGH</a></p>
+<p>Data Science Tools <a href="https://bit.ly/DSTools_GGH" class="uri">https://bit.ly/DSTools_GGH</a></p>
 </div>
 </div>
 </section>

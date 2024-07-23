@@ -1,11 +1,11 @@
 ---
-title: "Git and GitHub"
+title: "Git and GitHub Workshop"
 subtitle: "Workshop: Data Science Tools"
 author: "Tyler George, Cornell College"
 format: 
   revealjs:
     theme: [default, styles.scss]
-    footer: "Data Science Tools   <https://bit.ly/DSToolsGH>"
+    footer: "Data Science Tools   <https://bit.ly/DSTools_GGH>"
     incremental: true 
     slide-number: true
     preview-links: false
@@ -16,16 +16,17 @@ format:
 You can create a free account at: <https://github.com/>
 
 ## Git/GitHub terminology {.smaller}
-- repository
-- clone
-- pull
-- commit
-- push
-- fork
-- merge
-- master/main
-- branch
-- fetch
+
+-   repository (files, their relationships, and their history)
+-   clone/fork (copying repos)
+-   pull (refresh your copy)
+-   pull-request (request your version gets merged back to source)
+-   commit (changes to repo)
+-   push (push local the changes back to the source)
+-   merge (combine versions of files or repos)
+-   master/main (root directory of most git repos)
+-   branch (version of repo diverging from the original)
+-   fetch (update cloud version to your version)
 
 Definitions at: <https://www.pluralsight.com/resources/blog/cloud/git-terms-explained>
 
@@ -36,11 +37,12 @@ Definitions at: <https://www.pluralsight.com/resources/blog/cloud/git-terms-expl
 Credit: Robert B Cohen
 
 ## How do you...
-  * Create a repository
-  * Open or view issues
-  * Clone a Repository
-  * Star a Repository
-  * Fork a repository
+
+-   Create a repository
+-   Open or view issues
+-   Clone a Repository
+-   Star a Repository
+-   Fork a repository
 
 ## GitHub Workflow
 
@@ -48,62 +50,78 @@ Credit: Robert B Cohen
 
 Credit: Robert B Cohen
 
-## Follow Along (1/2) {.smaller}
-  * Fork the following repository: <https://github.com/stats-tgeorge/G_GH_Workshop_2024>. It is useful to change the title slightly. 
-  * Click into the *peoples_bios* folder
-  * Click *Add file* and then *create new file* on the right
-  * Name your file with your last name, first initial at the top (or your fictional characters name)
-    - Example: **George_T.txt**
-  * Write you bio in the document
-  * Click *Commit changes...* on top right
-  * Click *Commit changes*
+## Collaborate on repo - Follow Along {.smaller}
 
+::: panel-tabset
+### Make Bios (R1)
 
-## Follow Along  (2/2) {.smaller}
+-   Fork repo: <https://github.com/stats-tgeorge/G_GH_Workshop_2024>.
+-   Click *peoples_bios* folder
+-   Click *Add file* and then *create new file* on the right
+-   Name your file with your last name, first initial at the top. Example: **George_T.txt**
+-   Write you bio in the document
+-   Click *Commit changes...* on the top right. Then *Commit changes*
+-   Navigate back to the main page of your Fork of the repo by clicking its name at the top
+-   Click *Contribute* in the middle of the page and then *Open pull request*
+-   Click *Create pull request* at the bottom.
 
-  * Navigate back to the main page of your Fork of the repo by clicking its name at the top
-  * Now, in the middle of the page, you should see *Contribute*. Click that and then *Open pull request*
-  * Click *Create pull request* at the bottom.
-  
-## Accepting Your Work
+### Fix Typos (R2)
 
-- The owner of the repo can accept your pull-request and add your changes to the main repository
+-   Update your fork by clicking the *Sync Fork* button on the repo homepage at <https://github.com/stats-tgeorge/G_GH_Workshop_2024>.
+-   **Your Task:** Fix my typos in the opening overview presentation I gave. The filename is *Intro_Git_Github.qmd*. You will need to edit that file, commit the changes, then create a pull-request.
+:::
 
-- This is just one way to use version control and collaborate on GitHub!
+## Accepting Contributors Work
 
+-   The owner of the repo can accept your pull-request and add your changes to the main repository
+
+-   This is just one way to use version control and collaborate on GitHub!
 
 ## More Collaboration
-- A repo can have many contributors with many different levels of access. Example: <https://github.com/tidyverse/datascience-box>
 
-- Projects can be used to create boards (like Trello) to facilitate effective collaboration
+-   A repo can have many contributors with many different levels of access. Example: <https://github.com/tidyverse/datascience-box>
+
+-   Projects can be used to create boards (like Trello) to facilitate effective collaboration
 
 ## Revert a change
 
-- Reverting a change is one of the most important features of version control. I'll show this in GitHub Desktop
+-   Reverting a change is one of the most important features of version control.
 
-- How to revert a change to a repository
+-   Right now, it *not* possible on GitHub's website
+
+-   I will show you how to revert a change on the GitHub desktop app
 
 ## Teaching GitHub
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ### Teaching
-  * Git/GitHub need to be learning objectives (Beckman, et. al, 2021)
-  * Use it to enhance learning and collaboration
-  * Need to give a tasks that necessitates a team
-  * Projects and Kanban Boards
+
+-   Git/GitHub need to be learning objectives (Beckman, et. al, 2021)
+-   Use it to enhance learning and collaboration
+-   Need to give a tasks that necessitates a team
+-   Projects and Kanban Boards
 
 ### GitHub in Class
 
 ![](imgs/LabCycle.png)
-
 :::
 
-## Using GitHub to Teach and More {.smaller}
-  * GitHub Classroom. <https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom>
-  * Cloning others resources (checking license first)
-    - DSC 223 <https://dsc223-sb7-2024.github.io/DSC223_S24_website/>
-    - STA 362 <https://sta362-sb8-24.github.io/STA362StatLearning/>
-    - Originally Clones of Mine Çetinkaya-Rundel sites. <https://mine-cr.com/teaching/>
-  * Template Repositories
-  * GitHub Actions 
+## Using GitHub to Teach and More (1/2) {.smaller}
+
+-   In order to use some of GitHub's features, and use even more for free (rather than with a fee), you need to apply to GitHub Education as a teacher. <https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher>
+
+-   GitHub Classroom. <https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom>
+
+-   GitHub organizations. [Read more.](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations)
+
+-   Many instructors use GitHub organizations to create, share, and assign work to students few, or many (over 500) repositories
+
+-   If using R, there are packages to support this, including *ghclass* and *gradetools*
+
+## Using GitHub to Teach and More (2/2) {.smaller}
+
+-   Cloning others resources (checking license first)
+    -   DSC 223 <https://dsc223-sb7-2024.github.io/DSC223_S24_website/>
+    -   STA 362 <https://sta362-sb8-24.github.io/STA362StatLearning/>
+    -   Originally Clones of Mine Çetinkaya-Rundel sites. <https://mine-cr.com/teaching/>
+-   GitHub Actions

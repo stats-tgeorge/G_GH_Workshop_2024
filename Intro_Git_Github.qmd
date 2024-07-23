@@ -1,11 +1,11 @@
 ---
-title: "Overview of GitHub"
+title: "Overview of Git and GitHub"
 subtitle: "Workshop: Data Science Tools"
 author: "Tyler George, Cornell College"
 format: 
   revealjs:
     theme: [default, styles.scss]
-    footer: "Data Science Tools   <https://bit.ly/DSToolsGH>"
+    footer: "Data Science Tools   <https://bit.ly/DSTools_GGH>"
     incremental: true 
     slide-number: true
     preview-links: false
@@ -13,7 +13,7 @@ format:
 
 # Why Git/Github?
 
-## What do I name my file?
+## What do I name my fileeeeee?
 
 -   Have your students ever named files in strange ways?
 -   3 years ago I oversaw my 3 students doing research with Covid-19 data....
@@ -35,20 +35,20 @@ format:
 
 ![](imgs/script_name_e2.png)
 
-## What wrong with this?
+## What is wrOOng with this?
 
--   In the chat, guess the problems this approach led to...
+-   In the chat, guess what problems arose later in the project
 
 ## Funny, but what now?
 
-I was slightly amused at the time, but it lead to bad outcomes
+I was slightly amused at the time, but it led to bad outcomes
 
 -   Team members didn't know what script file had what in it
 -   They confused versions of data, scripts, and papers
 -   They built models on old variants of data
 -   In the end, their work was not trustworthy
 
-## (Some) Important Components of Good Analaysis'
+## (Some) Important Components of Good Analysis
 
 -   Reproducibility
 
@@ -96,7 +96,7 @@ Source: mozilla ScienceLab, [A Friendly Github intro Workshop](https://joeyklee.
 
 ![](imgs/GH_app.png)
 
-## Research on Using GitHub in the classroom {.smaller}
+## Research on Using GitHub in the Classroom {.smaller}
 
 -   Dogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. Journal of Statistics and Data Science Education, 0(ja), 1–25. https://doi.org/10.1080/26939169.2022.2138645
 
@@ -104,7 +104,7 @@ Source: mozilla ScienceLab, [A Friendly Github intro Workshop](https://joeyklee.
 
 -   Çetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549
 
-## Opiniated reasons to use Git/GitHub
+## Opinionated reasons to use Git/GitHub
 
 -   Free
 -   coding (I use R)
@@ -117,6 +117,6 @@ Source: mozilla ScienceLab, [A Friendly Github intro Workshop](https://joeyklee.
 ## What to expect in the GitHub Workshop?
 
 -   Git and GitHub terminology
--   Hands on practice collaboration: Fork a repo and complete a pull request
+-   Hands-on practice collaboration: Fork a repo and complete a pull request
 -   Help me fix my typos
 -   Additional options for educators

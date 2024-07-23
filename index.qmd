@@ -1,12 +1,18 @@
 ---
-title: "Data Science Tools"
+title: "Data Science Tools Workshop"
 ---
 
 ## Materials for Lessons on Git and GitHub
 
-Slides are at: [https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html](https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html#/title-slide). Short link at <https://bit.ly/DSToolsGH>.
+## Workshop Website: <https://bit.ly/DSTools_GGH>
 
-## Workshop Round 1
+### Overview Presentation Slides at:
+<https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html#/title-slide>
+
+### Workshop Slides at:
+<https://stats-tgeorge.github.io/G_GH_Workshop_2024/GitHubWorkshop.html#/title-slide>
+
+## Workshop Round 1 (30 min)
 
 -   Introduction into Git commands and terminology
 -   Create GitHub accounts and general overview
@@ -16,7 +22,7 @@ Slides are at: [https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Git
 -   Teaching GitHub
 -   Using GitHub to Teach
 
-## Workshop Round 2 (50%-70% overlap)
+## Workshop Round 2 (70% overlap, 30 min)
 
 -   Introduction into Git commands and terminology
 -   Create GitHub accounts and general overview
@@ -27,13 +33,15 @@ Slides are at: [https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Git
 -   Teaching GitHub
 -   Using GitHub to Teach
 
-### Resources
+## Resources
 
 -   Teaching with GitHub and R, **ghclass** R package. <https://github.com/rundel/ghclass>
 
 -   Getting started with Git: <https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources>
 
 -   Introduction to Git Shortcourse: <https://github.com/skills/introduction-to-github?tab=readme-ov-file>
+
+-   Apply to GitHub Education as a Teacher <https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher> 
 
 -   GitHub Educators <https://docs.github.com/en/education/quickstart>
 
@@ -47,7 +55,7 @@ Slides are at: [https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Git
 
 -   Git Definitions and Terminology Cheat Sheet: <https://www.pluralsight.com/resources/blog/cloud/git-terms-explained>
 
-### References
+## References
 
 -   Dogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. Journal of Statistics and Data Science Education, 0(ja), 1–25. https://doi.org/10.1080/26939169.2022.2138645
 
