@@ -2,7 +2,7 @@
 title: ""
 listing: 
   id: people-bios
-  contents: "peoples_bios/*.txt"
+  contents: "peoples_bios/*.md"
   sort: "title desc"
   type: default
 
