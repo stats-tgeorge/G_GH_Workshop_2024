@@ -5,10 +5,11 @@ author: "Tyler George, Cornell College"
 format: 
   revealjs:
     theme: [default, styles.scss]
-    footer: "Data Science Tools   <https://bit.ly/DSTools_GGH>"
+    footer: "Data Science Tools,   <https://bit.ly/DSTools_GGH>"
     incremental: true 
     slide-number: true
     preview-links: false
+    logo: imgs/cornell_logo.png
 ---
 
 # Why Git/Github?

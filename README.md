@@ -1,20 +1,25 @@
 ## Materials for Lessons on Git and GitHub
+
 July 23rd, 2024
 
-#### Workshop Website: 
+#### Workshop Website:
+
 <https://bit.ly/DSTools_GGH>
 
 #### Overview Presentation Slides at:
+
 <https://stats-tgeorge.github.io/G_GH_Workshop_2024/Intro_Git_Github.html>
 
 #### Workshop Slides at:
+
 <https://stats-tgeorge.github.io/G_GH_Workshop_2024/GitHubWorkshop.html>
 
-### Workshop Round 1 
+### Workshop Round 1
+
 30 min
 
--   Introduction into Git/GitHub commands and terminology
--   Create GitHub accounts and general overview
+-   Introduction to Git/GitHub commands and terminology
+-   Create GitHub accounts and a general overview
 -   Practice forking a repo, creating a new file, and pull-request
 -   Merge of pull request
 -   How to revert a repo change
@@ -22,17 +27,17 @@ July 23rd, 2024
 -   Using GitHub to Teach
 
 ### Workshop Round 2
+
 30 min, 70% overlap with round 1
 
--   Introduction into Git commands and terminology
--   Create GitHub accounts and general overview
+-   Introduction to Git commands and terminology
+-   Create GitHub accounts and a general overview
 -   Practice forking a repo, creating a new file, and pull-request *OR*
--   Go to GitHub page of opening talk, fork the repo, fix the mistakes, then pull-request
+-   Go to the GitHub page of opening talk, fork the repo, fix the mistakes, then pull-request
 -   Merge of pull request
     -   Show GitHub desktop, RStudio, and Quarto all working together
 -   Teaching GitHub
 -   Using GitHub to Teach
-
 
 ### Resources
 
@@ -42,7 +47,7 @@ July 23rd, 2024
 
 -   Introduction to Git Short course: <https://github.com/skills/introduction-to-github?tab=readme-ov-file>
 
--   Apply to GitHub Education as a Teacher <https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher> 
+-   Apply to GitHub Education as a Teacher <https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher>
 
 -   GitHub Educators <https://docs.github.com/en/education/quickstart>
 
@@ -63,5 +68,3 @@ July 23rd, 2024
 -   Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., & Tackett, M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 29(sup1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485
 
 -   Çetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. The American Statistician, 72(1), 58–65. https://doi.org/10.1080/00031305.2017.1397549
-
-

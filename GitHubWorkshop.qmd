@@ -5,10 +5,11 @@ author: "Tyler George, Cornell College"
 format: 
   revealjs:
     theme: [default, styles.scss]
-    footer: "Data Science Tools   <https://bit.ly/DSTools_GGH>"
+    footer: "Data Science Tools,   <https://bit.ly/DSTools_GGH>"
     incremental: true 
     slide-number: true
     preview-links: false
+    logo: imgs/cornell_logo.png
 ---
 
 ## Create GitHub accounts
@@ -20,7 +21,7 @@ You can create a free account at: <https://github.com/>
 -   repository (files, their relationships, and their history)
 -   clone/fork (copying repos)
 -   pull (refresh your copy)
--   pull-request (request your version gets merged back to source)
+-   pull-request (request your version gets merged back to the source)
 -   commit (changes to repo)
 -   push (push local the changes back to the source)
 -   merge (combine versions of files or repos)
@@ -43,6 +44,7 @@ Credit: Robert B Cohen
 -   Clone a Repository
 -   Star a Repository
 -   Fork a repository
+-   Place a pull-request
 
 ## GitHub Workflow
 
@@ -59,15 +61,16 @@ Credit: Robert B Cohen
 -   Click *peoples_bios* folder
 -   Click *Add file*, then *create new file* on the right
 -   Name your file with your last name, first initial (at the top). Example: **George_T.md**
--   Write you bio in the document
+-   Write your bio in the document
 -   Click *Commit changes...* on the top right. Then *Commit changes*
 -   Navigate back to the main page of your Fork of the repo by clicking its name at the top
 -   Click *Contribute* in the middle of the page and then *Open pull request*
 -   Click *Create pull request* at the bottom.
 
 ### Fix Typos (R2)
+
 -   Update your fork by clicking the *Sync Fork* button on the repo homepage at <https://github.com/stats-tgeorge/G_GH_Workshop_2024>.
--   **Your Task:** Fix my typos in the opening overview presentation I gave. The filename is *Intro_Git_Github.qmd*. You will need to edit that file, commit the changes, then create a pull-request.
+-   **Your Task:** Fix my typos in the opening overview presentation I gave. The filename is *Intro_Git_Github.qmd*. You will need to edit that file, commit the changes, and then create a pull-request.
 :::
 
 ## Accepting Contributors Work
@@ -97,7 +100,7 @@ Credit: Robert B Cohen
 
 -   Git/GitHub need to be learning objectives (Beckman, et. al, 2021)
 -   Use it to enhance learning and collaboration
--   Need to give a tasks that necessitates a team
+-   Give students a tasks that necessitate a team and the GitHub tools
 -   Projects and Kanban Boards
 
 ### GitHub in Class
@@ -107,19 +110,19 @@ Credit: Robert B Cohen
 
 ## Using GitHub to Teach and More (1/2) {.smaller}
 
--   In order to use some of GitHub's features, and use even more for free (rather than with a fee), you need to apply to GitHub Education as a teacher. <https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher>
+-   To use some of GitHub's features, others for free, rather than with a fee, you need to apply to GitHub Education as a teacher. <https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher>
 
 -   GitHub Classroom. <https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom>
 
 -   GitHub organizations. [Read more.](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations)
 
--   Many instructors use GitHub organizations to create, share, and assign work to students few, or many (over 500) repositories
+-   Many instructors use GitHub organizations to create, share, and assign work to students with few, or many (over 500) repositories
 
 -   If using R, there are packages to support this, including *ghclass* and *gradetools*
 
 ## Using GitHub to Teach and More (2/2) {.smaller}
 
--   Cloning others resources (checking license first)
+-   Cloning other's resources (checking license first)
     -   DSC 223 <https://dsc223-sb7-2024.github.io/DSC223_S24_website/>
     -   STA 362 <https://sta362-sb8-24.github.io/STA362StatLearning/>
     -   Originally Clones of Mine Çetinkaya-Rundel sites. <https://mine-cr.com/teaching/>

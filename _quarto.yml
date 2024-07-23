@@ -12,6 +12,8 @@ website:
         text: "Overeview Presentation Slides"
       - href: GitHubWorkshop.qmd
         text: "Workshop Slides"
+      - icon: github
+        href: https://github.com/stats-tgeorge/G_GH_Workshop_2024
         
 format:
   html:
